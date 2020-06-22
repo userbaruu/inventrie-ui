@@ -1,9 +1,9 @@
 <template>
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
-      <q-toolbar>
+      <q-toolbar class="bg-dark">
         <q-toolbar-title>
-          InvenTRIE
+          inventrie
         </q-toolbar-title>
 
         <div class="q-mr-sm">Quasar v{{ $q.version }}</div>
