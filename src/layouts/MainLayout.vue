@@ -2,20 +2,19 @@
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
       <q-toolbar>
+        <q-toolbar-title>
+          InvenTRIE
+        </q-toolbar-title>
+
+        <div class="q-mr-sm">Quasar v{{ $q.version }}</div>
+
         <q-btn
           flat
           dense
           round
           icon="menu"
           aria-label="Menu"
-          @click="leftDrawerOpen = !leftDrawerOpen"
-        />
-
-        <q-toolbar-title>
-          Quasar App
-        </q-toolbar-title>
-
-        <div>Quasar v{{ $q.version }}</div>
+          @click="leftDrawerOpen = !leftDrawerOpen" />
       </q-toolbar>
     </q-header>
 
@@ -47,7 +46,7 @@
 </template>
 
 <script>
-import EssentialLink from 'components/EssentialLink.vue'
+import EssentialLink from '../components/EssentialLink.vue'
 
 export default {
   name: 'MainLayout',
