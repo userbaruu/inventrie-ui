@@ -1,4 +1,4 @@
-name: Auto Draft Release
+name: Status Rilis
 
 on:
   push:
