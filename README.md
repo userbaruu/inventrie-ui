@@ -1,6 +1,6 @@
 # Aplikasi inventrie
 
-![Auto Draft Release](https://github.com/bbta3-bppt/inventrie-ui/workflows/Auto%20Draft%20Release/badge.svg)
+![Status Rilis](https://github.com/bbta3-bppt/inventrie-ui/workflows/Status%20Rilis/badge.svg)
 
 Aplikasi inventaris peralatan TRIE di lingkungan BBTA3 BPPT. Repository ini khusus tentang pengembangan bagian frontend 
 dari inventrie.
